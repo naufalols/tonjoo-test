@@ -11300,3 +11300,7 @@ textarea.form-control-lg {
     margin-top: 0;
   }
 }
+.jumbotron {
+  background-image: url(/images/yellow-chair.jpg?fd9b59c73eb98484c024757161fd64e0);
+  background-size: cover;
+}
