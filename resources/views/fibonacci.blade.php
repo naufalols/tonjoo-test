@@ -7,14 +7,15 @@
 <div class="container-fluid bg-white p-4">
     <h2>Fibonacci</h2>
     <div class="col-md-5">
-        <form action="/fibnoccaiCount" method="post">
+        <form action="/fibonaccicount" method="post">
+            @csrf
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">column 1</label>
-                <input type="number" class="form-control" id="exampleFormControlInput1">
+                <input type="number" name="n1" class="form-control" id="exampleFormControlInput1">
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">column 2</label>
-                <input type="number" class="form-control" id="exampleFormControlInput1">
+                <input type="number" name="n2" class="form-control" id="exampleFormControlInput1">
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>

@@ -16,12 +16,12 @@ class FibonacciController extends Controller
     {
         $data = $request->all();
         $validator = Validator::make($data, [
-            'f1' => 'required|numeric|max:1',
-            'f2' => 'required|numeric|max:10',
+            'n1' => 'required|numeric|max:1',
+            'n2' => 'required|numeric|max:10',
         ]);
 
         if ($validator->fails()) {
-            return redirect('your route')
+            return redirect('fibonacci')
             ->withErrors($validator)
             ->withInput();
         }
