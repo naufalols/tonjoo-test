@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\FibonacciController;
+use App\Http\Controllers\ListTransactionController;
+use App\Http\Controllers\TransactionController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,3 +23,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('main');
 });
+
+Route::get('/addtransaction', [TransactionController::class, 'index']);
+Route::get('/listtransaction', [ListTransactionController::class, 'index']);
+Route::get('/fibonacci', [FibonacciController::class, 'index']);
+Route::post('/fibonaccicount', [FibonacciController::class, 'fibonacci']);

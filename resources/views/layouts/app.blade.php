@@ -45,10 +45,18 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Order</a>
+                            <a class="nav-link" href="/fibonacci">Fibonacci</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkTransaction"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Data Transaction
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkTransaction">
+                                <li><a class="dropdown-item" href="/addtransaction">Add Transaction Data</a></li>
+                                <li><a class="dropdown-item" href="/listtransaction">List Transaction Data</a></li>
+                                <li><a class="dropdown-item" href="#">Report</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
