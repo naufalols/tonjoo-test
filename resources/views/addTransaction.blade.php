@@ -31,9 +31,10 @@
         </div>
         <h2>Transaction Data</h2>
         <div class="border border-1 mb-2 p-2">
-            <button type="button" class="btn-close float-end" aria-label="Close"></button>
+            {{-- <button type="button" id="removeTransaction[0]" class="btn-close float-end"
+                aria-label="Close"></button> --}}
             <div class="mb-3 row">
-                <label for="inputPassword" class="col-sm-2 col-form-label">Category</label>
+                <label for="inputPassword" class="col-sm-2 col-form-label">Category 1</label>
                 <div class="col-sm-3">
                     <select class="form-select" aria-label="Default select example">
                         <option selected>-- select category --</option>
@@ -67,8 +68,9 @@
                 </div>
             </div>
         </div>
+        <div id="moreTransaction"></div>
         <div class="">
-            <button class="btn btn-primary btn-block text-white" (click)="onAddCategoieModal(addCategorieModal)">Add
+            <button type="button" class="btn btn-primary btn-block text-white" id="addMoreTransaction">Add
                 More</button>
         </div>
     </form>

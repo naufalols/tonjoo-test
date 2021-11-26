@@ -4,7 +4,7 @@
 
 @section('content')
 
-<div class="container-fluid bg-white p-4">
+<div class="container-fluid mb-2 bg-white p-4">
     <h2>List Transaction Data</h2>
     <div class="mb-3 row">
         <div class="col-sm-2">
@@ -30,6 +30,58 @@
             <button class="btn btn-primary text-white">search</button>
         </div>
     </div>
+</div>
+<div class="container-fluid bg-white p-4">
+    <table class="table table-striped table-borderless">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Deskripsi</th>
+                <th>Code</th>
+                <th>Rate Euro</th>
+                <th>Data Paid</th>
+                <th>Category</th>
+                <th>Transaction Name</th>
+                <th>Amount (IDR)</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
+                <td>john@example.com</td>
+                <td>john@example.com</td>
+                <td>john@example.com</td>
+                <td>john@example.com</td>
+                <td>john@example.com</td>
+                <td>john@example.com</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
+                <td>john@example.com</td>
+                <td>john@example.com</td>
+                <td>john@example.com</td>
+                <td>john@example.com</td>
+                <td>john@example.com</td>
+                <td>john@example.com</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
+                <td>john@example.com</td>
+                <td>john@example.com</td>
+                <td>john@example.com</td>
+                <td>john@example.com</td>
+                <td>john@example.com</td>
+                <td>john@example.com</td>
+            </tr>
+        </tbody>
+    </table>
 </div>
 
 @endsection
