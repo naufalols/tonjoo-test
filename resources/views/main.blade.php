@@ -33,7 +33,7 @@
     </div>
     <div class="col">
         <div class="card bg-transparent border-0">
-            <img src="{{asset('images/p4.jpeg')}}" class="card-img-top" alt="...">
+            <img src="{{asset('images/p1.jpeg')}}" class="card-img-top" alt="...">
         </div>
     </div>
 </div>
