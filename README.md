@@ -14,6 +14,10 @@ buat satu database msql pada server, lalu buat satu file .env atau rename .env.e
 Lalu di dalam bash lakukan
 
 ```bash
+<<<<<<< HEAD
+=======
+
+>>>>>>> 115b205c5e6912e7543e99f83fab195a088ddd39
 # composer
 composer install
 
