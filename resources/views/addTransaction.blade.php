@@ -24,7 +24,8 @@
                     <label for="floatingInput">Rate Euro</label>
                 </div>
                 <div class="form-floating mb-2">
-                    <input name="dateTransaction" type="date" class="form-control" id="floatingInput">
+                    <input name="dateTransaction" type="date" value="{{Carbon\Carbon::now()->format('Y-m-d')}}" class="
+                        form-control" id="floatingInput">
                     <label for="floatingInput">Date Paid</label>
                 </div>
             </div>
@@ -56,7 +57,7 @@
                         <tbody>
                             <tr>
                                 <td><input name="transactionName[0][0]" type="text" class="form-control"></td>
-                                <td><input name="nominal[0][0]" type="text" class="form-control"></td>
+                                <td><input name="nominal[0][0]" type="number" class="form-control"></td>
                                 <td><button type="button"
                                         class="btn btn-primary btn-sm text-white addMoreTransactionTable"><i
                                             class="bi bi-plus"></i></button>
