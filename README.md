@@ -14,6 +14,10 @@ buat satu database msql pada server, lalu buat satu file .env atau rename .env.e
 Lalu di dalam bash lakukan
 
 ```bash
+
+# composer
+composer install
+
 # migrate table
 php artisan migrate
 
