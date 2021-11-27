@@ -25,6 +25,7 @@ Route::get('/', function () {
 });
 
 Route::get('/addtransaction', [TransactionController::class, 'index']);
+Route::post('/savetransaction', [TransactionController::class, 'store']);
 Route::get('/listtransaction', [ListTransactionController::class, 'index']);
 Route::get('/fibonacci', [FibonacciController::class, 'index']);
 Route::post('/fibonaccicount', [FibonacciController::class, 'fibonacci']);
